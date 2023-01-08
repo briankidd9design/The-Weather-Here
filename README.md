@@ -1,5 +1,5 @@
 # Add a .env file to the root directory
-In order for this app to work, you must add a .env file to the root directory. In that root directory, in he .env file, you must add your weather api key as follows. Do not add a semicolon to the end of the expression.
+In order for this app to work, you must add a .env file to the root directory. In that root directory, in the .env file, you must add your weather api key as follows. Do not add a semicolon to the end of the expression.
 `API_KEY=YOUR_API_KEY_HERE`
 
 In order for an .env file to work in your application, you must install dotenv by typing npm install dotenv in your terminal while inside the root directory. 
