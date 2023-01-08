@@ -4,7 +4,20 @@ In order for this app to work, you must add a .env file to the root directory. I
 
 In order for an .env file to work in your application, you must install dotenv by typing npm install dotenv in your terminal while inside the root directory. 
 
-Please make sure you have node installed to run the entire application. For more information, visit here: https://nodejs.dev/en/learn/how-to-install-nodejs/
+##What to install
+
+Since dotnev is actually listed in the package.json file you can simply install it by entering npm install into the terminal.
+
+##How to start application
+Please make sure you have node installed to run the entire application. For more information, visit here: https://nodejs.dev/en/learn/how-to-install-nodejs/ 
+
+Since nodemon is also listed in the package.json file and will be installed as a dependency with npm install, you can simply type nodemon in the terminal and when you make changes the app will automatically refresh.
+
+You can also run the app locally by adding a start property to the package.json file under the scripts property  
+`"scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },`
 
 # How this application works
 1. The weather app geolocates with the latitude and longitude data coming from the geolocation feature of the browser. For Chrome browser, go to site settinngs and allow location
