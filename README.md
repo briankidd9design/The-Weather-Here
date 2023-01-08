@@ -3,20 +3,19 @@ In order for this app to work, you must add a .env file to the root directory. I
 `API_KEY=YOUR_API_KEY_HERE`
 See the .env_sample file to for an example.
 
-In order for an .env file to work in your application, you must install dotenv by typing npm install dotenv in your terminal while inside the root directory. Or you can simply type npm install, since dotnev is listed in the package.json file as a dependency. 
+In order for an .env file to work in your application, you must install dotenv by typing npm install dotenv in your terminal while inside the root directory. Or you can simply type npm install, since dotenv is listed in the package.json file as a dependency. 
 
 ## What to install
+Please make sure you have node installed to run the entire application. For more information, visit here: https://nodejs.dev/en/learn/how-to-install-nodejs/ 
 
 Since dotnev is actually listed in the package.json file you can simply install it by entering npm install into the terminal.
 
+npm install will install all the node package dependencies listed in the package.json file that are necessary to run the application. 
+
 ## How to start application
-Please make sure you have node installed to run the entire application. For more information, visit here: https://nodejs.dev/en/learn/how-to-install-nodejs/ 
-
-
 ### Start app locally with nodemon 
 
 Since nodemon is also listed in the package.json file and will be installed as a dependency with npm install, you can simply type nodemon in the terminal and when you make changes the app will automatically refresh.
-
 ### Start app with npm start
 You can also run the app locally by adding a start property to the package.json file under the scripts property  
 `"scripts": {
