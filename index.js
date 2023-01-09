@@ -12,7 +12,7 @@ dotenv.config();
 // const Datastore = require("nedb");
 
 const app = express();
-app.listen(3000, () => console.log("listening at 3000"));
+app.listen(80, () => console.log("listening at 3000"));
 app.use(express.static("public"));
 app.use(express.json({ limit: "5mb" }));
 // setting up an application programming interface for clients to sends data to the server
